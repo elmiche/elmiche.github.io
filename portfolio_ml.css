@@ -13,5 +13,136 @@ h3 {
 .container-1 {
     float: left;
     padding: 10px;
+    background: rgba(156, 73, 14, 0.438);
 }
 
+.container-2 {
+    float: right;
+    background: rgba(214, 140, 75, 0.534);
+    padding: 10px;
+}
+
+.content {
+    width: 100%;
+}
+
+
+/* this is css for lab 3 */
+
+.top-section {
+    text-align: center;
+}
+.title  {
+    font-family:'Oswald', sans-serif; 
+    font-size:24px; 
+    font-weight:400; 
+    text-transform: uppercase; 
+    color:black; 
+    padding:20px; 
+    margin:0;
+    text-align: center;
+        }
+
+.container {
+    text-align: center;
+    }
+
+#top-section .parallax-one {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+    }
+#top-section .parallax-two {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;}
+#top-section 
+
+
+.row {
+    display: grid;
+}
+
+.card  img{
+    height: 200px;
+}
+
+.card {
+    margin: 10px;
+}
+
+/* Typography */
+/**************************/
+#top-section h1 {
+    font-family:'Oswald', sans-serif; 
+    font-size:24px; 
+    font-weight:400; 
+    text-transform: uppercase; 
+    color:black; 
+    padding:0; 
+    margin:0;
+    }
+#top-section h2 {
+    font-family:'Oswald', sans-serif; 
+    font-size:70px; 
+    letter-spacing:10px; 
+    text-align:center; 
+    color:white; 
+    font-weight:400; 
+    text-transform:uppercase; 
+    z-index:10; 
+    opacity:.9;
+    }
+#top-section h3 {
+    font-family:'Oswald', sans-serif; 
+    font-size:14px; 
+    line-height:0; 
+    font-weight:400; 
+    letter-spacing:8px; 
+    text-transform: uppercase; 
+    color:black;
+    text-align: center;
+    padding: 20px;
+    }
+
+#top-section p {
+    font-family:'Source Sans Pro', sans-serif; 
+    font-weight:400; 
+    font-size:14px; 
+    line-height:24px;
+    text-align: center;
+    }
+
+
+
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 959px) {
+    #top-section .block {padding: 40px; width:620px;}
+  }
+  @media screen and (max-width: 767px) {
+    #top-section .block {padding: 30px; width:420px;}
+    #top-section h2 {font-size:30px;}
+    #top-section .block {padding: 30px;}
+    #top-section .parallax-one
+  }
+  @media screen and (max-width: 479px) {
+    #top-section .block {padding: 30px 15px; width:290px;}
+  }
